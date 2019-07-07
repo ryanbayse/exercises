@@ -1,0 +1,9 @@
+/* div > .jumbotron > .jumbotron-fluid {
+    background: url("imgs/header.jpeg");
+    background-size: cover;
+} */
+
+#jumbotron {
+    background: url("imgs/header.jpeg");
+    background-size: cover;
+}
