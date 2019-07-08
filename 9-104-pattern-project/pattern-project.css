@@ -3,6 +3,10 @@
     background-size: cover;
 } */
 
+/* #jumbotron {
+    background: url("imgs/header.jpeg") center center / cover no-repeat;
+} */
+
 #jumbotron {
     background: url("imgs/header.jpeg");
     background-size: cover;
