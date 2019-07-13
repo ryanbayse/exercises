@@ -19,3 +19,28 @@ body {
 #main-navbar .nav-link:hover {
     color: #ea1c2c;
 }
+
+#firstGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#firstGroup span {
+    color: #ea1c2c;
+}
+
+#secondGroup h2 {
+    font-weight: 100;
+    font-size: 2.5rem;
+    color: #ea1c2c;
+}
+
+#secondGroup span {
+    color: #f498b8;
+}
+
+@media (max-width: 1200px) {
+    #firstGroup h1 {
+        font-size: 3rem;
+    }
+}
