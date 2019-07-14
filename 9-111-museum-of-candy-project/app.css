@@ -29,14 +29,26 @@ body {
     color: #ea1c2c;
 }
 
-#secondGroup h2 {
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blurb h2 {
     font-weight: 100;
     font-size: 2.5rem;
     color: #ea1c2c;
 }
 
-#secondGroup span {
+.blurb p {
     color: #f498b8;
+    font-size: 1.125rem;
+    line-height: 2.0;
+}
+
+.navbar .scrolled {
+    background: #dec0de;
+    transition: background 500ms;
 }
 
 @media (max-width: 1200px) {
