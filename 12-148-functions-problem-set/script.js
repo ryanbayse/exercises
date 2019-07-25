@@ -26,11 +26,11 @@ function isEven(x) {
 
 function factorial(n) {
     var result = 1;
-    for(var i = 1; i <= n; i++) {
-        result = result * i;
+    for(var i = 2; i <= n; i++) {
+        result *= i;
     }
+    return result;
 }
-
 
 // kebabToSnake()
 // kebabToSnake("hello-world"); //"hello_world"
